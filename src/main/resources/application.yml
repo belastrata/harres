@@ -1,0 +1,32 @@
+#Global configuration
+spring:
+
+  application:
+    name: harres
+    #H2 Configuration
+    h2.console.enabled: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/harres
+    username: root
+    password: root
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+server:
+  servlet:
+    context-path: /harres
+
+#Log level configuration
+logging:
+  level:
+    error: DEBUG
+
+
+

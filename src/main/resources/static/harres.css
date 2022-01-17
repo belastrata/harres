@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans+Condensed:wght@300&family=Playfair+Display+SC:wght@700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Audiowide&family=Open+Sans+Condensed:wght@300&family=Playfair+Display+SC:wght@700&family=Prata&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 5px solid #0d1779;
+}
+
+nav .logo{
+   display: flex;
+   margin-left: 20px;
+   padding: 20px;
+
+    
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 200px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: #61b2e5;
+    margin-right: 10px;
+    border-bottom: 1px solid #61b2e5;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("marseille.png");
+    background-size: cover;
+    color: #0d1779;
+    padding: 5%;
+}
+
+header h1{
+    font-family: 'Prata', sans-serif;
+    font-size: 350%; 
+}
+
+header h4{
+    font-family: 'Alegreya', sans-serif;
+    font-size: 280%;
+    text-align:start;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 30px;
+    text-align:center;
+    color: #0d1779;
+}
+
+.main h1{
+    background-color: #0d1779;
+    color: white;
+    font-size: 65px;
+}
+
+.main .content .services{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.main .content .services .left{
+flex: 0 0 20%;
+padding: 20px;
+background-color: #0d1779;
+color:white;
+}
+
+.main .content .services .right{
+    flex: 0 0 20%;
+    padding: 20px;
+background-color: #0d1779;
+color:white;
+}
+
+.main .content .services .center{
+    flex: 0 0 20%;
+    padding: 20px;
+background-color: #0d1779;
+color:white;
+    }    
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #0d1779;
+    background-color: rgba(30, 41, 93, 0.24);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    color: #0d1779;
+    padding: 50px 100px;
+}    
+
+footer h1{
+    font-family: 'Prata', sans-serif;
+    border-bottom: 1px solid #0d1779;
+    font-size: 40px;
+    width: 10%;
+    padding-bottom: 5px;
+}
+
+footer .contact{
+    margin-top: -10px;
+    display:flex ;
+}
+
+footer .contact .email{
+    margin-right: 100px;
+    padding: 10px;
+}
+
+footer .contact .email p{
+    max-width: 340px;
+}
+
+footer .contact .adresse{
+    margin-right: 30px;
+    padding: 10px;
+}
+
+footer .contact .adresse p{
+    max-width: 350px;
+}
+
+footer .contact .numero{ 
+    padding: 10px;
+}
+
+i{
+    cursor: pointer;
+}
+
+@media screen and (max-width:680px){
+    nav .onglets{
+      margin-left: 0px;  
+      margin-bottom: 20px;
+    }
+    .main .contact{
+        margin: 10px;
+    }
+}
