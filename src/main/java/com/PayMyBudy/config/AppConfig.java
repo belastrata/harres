@@ -21,7 +21,7 @@ public class AppConfig extends WebSecurityConfigurerAdapter {
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers( "/harres.css","/signin", "/register", "/login","/registration")
+                .antMatchers( "/harres3.css","/harres2.css","/signin","/register", "/login","/registration")
                 .permitAll()
                 .anyRequest()
                 .authenticated()
