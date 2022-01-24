@@ -74,6 +74,7 @@ header h4{
     background-color: #0d1779;
     color: white;
     font-size: 65px;
+    border-radius: 10px;
 }
 
 .main .content .services{
@@ -84,25 +85,28 @@ margin-bottom: 20px;
 }
 
 .main .content .services .left{
-flex: 0 0 20%;
-padding: 20px;
-background-color: #0d1779;
-color:white;
+    flex: 0 0 20%;
+    padding: 20px;
+    background-color: #0d1779;
+    color:white;
+    border-radius: 10px;
 }
 
 .main .content .services .right{
     flex: 0 0 20%;
     padding: 20px;
-background-color: #0d1779;
-color:white;
+    background-color: #0d1779;
+    color:white;
+    border-radius: 10px;
 }
 
 .main .content .services .center{
     flex: 0 0 20%;
     padding: 20px;
-background-color: #0d1779;
-color:white;
-    }    
+    background-color: #0d1779;
+    color:white;
+    border-radius: 10px;
+}
 
 footer{
     margin-top: 40px;

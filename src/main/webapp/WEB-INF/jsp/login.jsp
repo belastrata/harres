@@ -17,23 +17,6 @@
 
                 <h1>Connexion Harres Communication</h1>
 
-                <div class="social-media">
-                    <p>
-                        <i class="fab fa-facebook-square"></i>
-                    </p>
-                    <p>
-                        <i class="fab fa-twitter-square"></i>
-                    </p>
-                    <p>
-                        <i class="fab fa-youtube"></i>
-                    </p>
-                    <p>
-                        <i class="fab fa-google-plus"></i>
-                    </p>
-                </div>
-
-                <p class="choose-email">ou utiliser mon adresse e-mail:</p>
-
                 <div class="inputs">
                      <input type="text" id="username" name="username" class="form-control" placeholder="Username"
                                           required="" autofocus=""/>
