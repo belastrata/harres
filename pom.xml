@@ -11,8 +11,8 @@
     <groupId>com.PayMyBudy</groupId>
     <artifactId>PayMyBudy</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PayMyBudy</name>
-    <description>App to transfer cash between people</description>
+    <name>harres</name>
+    <description>Marketing coaching website</description>
     <properties>
         <java.version>16</java.version>
     </properties>
