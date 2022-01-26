@@ -20,12 +20,10 @@
               <form:input path="email" type="email"/>
               <form:input path="password" type="password"/>
               <form:input path="confirmPassword" type="password"/>
-
-          </div>
+              </div>
               <div align="center">
                   <form:button class="w-100 btn btn-lg btn-primary" type="submit">Register</form:button>
               </div>
-              </form:form>
-
+      </form:form>
       </body>
   </html>

@@ -22,5 +22,4 @@ public class User {
     @ManyToMany
     private List<Connection> connections;
 
-
 }

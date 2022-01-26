@@ -69,20 +69,17 @@
                      <div class="adresse">
                          <h3>Adresse:</h3>
                          <p>11 traverse de la Dominique, Marseille, France</p>
-
                      </div>
 
                      <div class="email">
                          <h3>E-mail:</h3>
                          <p>harrescommunication@gmail.com</p>
-
                      </div>
 
                      <div class="numero">
                          <h3>Téléphone:</h3>
                          <p>06 99 86 60 67</p>
                          <p>06 11 53 34 46</p>
-
                      </div>
 
                  </div>

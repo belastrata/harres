@@ -18,10 +18,8 @@
                 <h1>Connexion Harres Communication</h1>
 
                 <div class="inputs">
-                     <input type="text" id="username" name="username" class="form-control" placeholder="Username"
-                                          required="" autofocus=""/>
-                     <input type="password" id="password" name="password" class="form-control" placeholder="Password"
-                                          required=""/>
+                     <input type="text" id="username" name="username" class="form-control" placeholder="Username"required="" autofocus=""/>
+                     <input type="password" id="password" name="password" class="form-control" placeholder="Password"required=""/>
                 </div>
 
                <div align="center">
