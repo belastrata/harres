@@ -21,5 +21,4 @@ public class User {
     private String password;
     @ManyToMany
     private List<Connection> connections;
-
 }

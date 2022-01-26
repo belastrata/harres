@@ -36,5 +36,4 @@ public class AppConfig extends WebSecurityConfigurerAdapter {
 
     }
 
-
 }
