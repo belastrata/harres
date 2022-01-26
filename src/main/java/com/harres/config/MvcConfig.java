@@ -1,4 +1,4 @@
-package com.PayMyBudy.config;
+package com.harres.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

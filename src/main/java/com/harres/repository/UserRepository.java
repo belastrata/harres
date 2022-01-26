@@ -1,6 +1,6 @@
-package com.PayMyBudy.repository;
+package com.harres.repository;
 
-import com.PayMyBudy.model.User;
+import com.harres.model.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

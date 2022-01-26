@@ -1,4 +1,4 @@
-package com.PayMyBudy.model;
+package com.harres.model;
 
 import lombok.Data;
 

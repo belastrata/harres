@@ -1,10 +1,8 @@
-package com.PayMyBudy.model;
+package com.harres.model;
 
 import lombok.Data;
 
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.util.List;
 
 @Data
 @Entity

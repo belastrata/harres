@@ -1,7 +1,7 @@
-package com.PayMyBudy.webApp.controller;
+package com.harres.webApp.controller;
 
-import com.PayMyBudy.service.UserService;
-import com.PayMyBudy.service.form.*;
+import com.harres.service.UserService;
+import com.harres.service.form.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

@@ -1,12 +1,11 @@
-package com.PayMyBudy.service;
+package com.harres.service;
 
-import com.PayMyBudy.model.Account;
-import com.PayMyBudy.model.User;
-import com.PayMyBudy.repository.AccountRepository;
-import com.PayMyBudy.repository.UserRepository;
-import com.PayMyBudy.service.form.RegistrationForm;
+import com.harres.model.Account;
+import com.harres.model.User;
+import com.harres.repository.AccountRepository;
+import com.harres.repository.UserRepository;
+import com.harres.service.form.RegistrationForm;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
