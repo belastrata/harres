@@ -1,8 +1,6 @@
 package com.harres.service;
 
-import com.harres.model.Account;
 import com.harres.model.User;
-import com.harres.repository.AccountRepository;
 import com.harres.repository.UserRepository;
 import com.harres.service.form.RegistrationForm;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +14,7 @@ public class UserService {
     PasswordEncoder passwordEncoder;
     @Autowired
     private UserRepository userRepository;
-    @Autowired
-    private AccountRepository accountRepository;
+
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
@@ -28,9 +25,6 @@ public class UserService {
         user.setFirstName(form.getFirstName());
         user.setLastName(form.getLastName());
         user.setEmail(form.getEmail());
-        Account account = new Account();
-        account.setAmount(0.0);
-       user.setAccount(account);
         user.setPassword(passwordEncoder.encode(form.getPassword()));
 
         return userRepository.save(user);

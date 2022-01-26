@@ -1,10 +1,10 @@
-package com.harres.PayMyBudy;
+package com.harres;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PayMyBudyApplicationTests {
+class harresTests {
 
 	@Test
 	void contextLoads() {
