@@ -11,6 +11,7 @@
        <link type="text/css"  rel="stylesheet"  href="${pageContext.request.contextPath}/harres3.css">
           <title>Inscription</title>
       </head>
+
       <body>
 <form:form action="registration" method="post" modelAttribute="registrationForm">
 
